@@ -51,6 +51,10 @@ docker run -d --name cruncher-student \
   -e REPORT_URL=http://cruncher-admin:5000/report \
   ghcr.io/your-org/numbercruncher-student
 
+
+
+
+
 Option 2: Run the Game Natively
 Download the precompiled version for your platform from the Releases tab.
 
