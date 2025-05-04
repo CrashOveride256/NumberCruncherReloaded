@@ -1,0 +1,4 @@
+FROM ubuntu:22.04
+RUN apt update && apt install -y libx11-6 xvfb
+COPY ./game /game
+CMD ["xvfb-run", "/game/NumberCruncher"]
